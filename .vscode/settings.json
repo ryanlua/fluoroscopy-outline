@@ -1,11 +1,5 @@
 {
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
@@ -24,11 +18,6 @@
     "**/.DS_Store": true,
     "**/node_modules": true
   },
-  "cSpell.words": [
-    "gametest",
-    "gametests",
-    "mcaddon"
-  ],
-  "editor.tabSize": 2,
-  "eslint.experimental.useFlatConfig": true
+  "cSpell.words": ["mcpack", "mctoolsweb"],
+  "editor.tabSize": 2
 }
