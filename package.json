@@ -13,6 +13,7 @@
   "scripts": {
     "lint": "just-scripts lint",
     "lint:fix": "just-scripts lint --fix",
+    "clean": "just-scripts clean",
     "local-deploy": "just-scripts local-deploy",
     "mcpack": "just-scripts mcpack"
   }
