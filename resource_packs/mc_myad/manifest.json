@@ -1,0 +1,47 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "myaddonStarter",
+    "description": "myaddonStarter",
+    "uuid": "cb7b1b70-78c5-4d68-8006-33758047722a",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      130
+    ]
+  },
+  "modules": [
+    {
+      "description": "Add-on Pack Resources",
+      "type": "resources",
+      "uuid": "d239e5ea-92d2-41f7-857b-b9ce19637a86",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "87f273c0-832a-4079-9e67-18b0e896fdbc",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "generated_with": {
+      "mctoolsweb": [
+        "0.15.2"
+      ]
+    }
+  }
+}
