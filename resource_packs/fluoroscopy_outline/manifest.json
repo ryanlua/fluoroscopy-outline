@@ -4,6 +4,7 @@
     "name": "Fluoroscopy Outline",
     "description": "Outlines ores with their block color.",
     "uuid": "cb7b1b70-78c5-4d68-8006-33758047722a",
+    "pack_scope": "global",
     "version": [1, 0, 0],
     "min_engine_version": [1, 21, 130]
   },
