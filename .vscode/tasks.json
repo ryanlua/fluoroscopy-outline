@@ -2,11 +2,53 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "build",
-      "dependsOrder": "sequence",
-      "dependsOn": [
-        "minecraft: deploy"
-      ]
+      "type": "npm",
+      "script": "lint",
+      "problemMatcher": ["$eslint-stylish"],
+      "label": "npm: lint",
+      "detail": "just-scripts lint",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      }
+    },
+    {
+      "type": "npm",
+      "script": "lint:fix",
+      "problemMatcher": ["$eslint-stylish"],
+      "label": "npm: lint:fix",
+      "detail": "just-scripts lint --fix",
+      "group": {
+        "kind": "test"
+      }
+    },
+    {
+      "type": "npm",
+      "script": "clean",
+      "problemMatcher": [],
+      "label": "npm: clean",
+      "detail": "just-scripts clean"
+    },
+    {
+      "type": "npm",
+      "script": "local-deploy",
+      "problemMatcher": [],
+      "label": "npm: local-deploy",
+      "detail": "just-scripts local-deploy",
+      "group": {
+        "kind": "build"
+      }
+    },
+    {
+      "type": "npm",
+      "script": "mcpack",
+      "problemMatcher": [],
+      "label": "npm: mcpack",
+      "detail": "just-scripts mcpack",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
     }
   ]
 }
