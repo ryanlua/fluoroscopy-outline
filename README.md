@@ -3,15 +3,12 @@
 </h1>
 
 <div align="center">
-  <a href="https://github.com/ryanlua/fluoroscopy-outline/releases">
-    <img alt="github-plural" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/github-plural_64h.png">
-  </a>
   <a href="https://github.com/sponsors/ryanlua">
-    <img alt="ghsponsors-plural" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/ghsponsors-plural_64h.png">
+    <img alt="ghsponsors-plural" height="32" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/donate/ghsponsors-plural_46h.png">
   </a>
 </div>
 
-<br/>
+<br>
 
 A Minecraft Bedrock resource pack that outlines ores with their block color, making them easier to spot while mining.
 
