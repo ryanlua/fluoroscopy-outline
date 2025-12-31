@@ -4,10 +4,10 @@
 
 <div align="center">
   <a href="https://github.com/ryanlua/fluoroscopy-outline/releases">
-    <img alt="github" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/github_vector.svg">
+    <img alt="github-plural" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/github-plural_64h.png">
   </a>
   <a href="https://github.com/sponsors/ryanlua">
-    <img alt="ghsponsors-singular" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/ghsponsors-singular_vector.svg">
+    <img alt="ghsponsors-plural" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/ghsponsors-plural_64h.png">
   </a>
 </div>
 
