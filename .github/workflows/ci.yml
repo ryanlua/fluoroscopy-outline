@@ -13,18 +13,20 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - name: Checkout repository
+        uses: actions/checkout@v6
       - name: Use Node.js
         uses: actions/setup-node@v6
         with:
           node-version: 24
           cache: "npm"
-      - run: npm ci
-      - run: npm run lint
-      - name: Build mcpack
-        run: npm run mcpack
-      - name: Upload mcpack
+      - name: Test and build mcpack
+        run: |
+          npm ci
+          npm run lint
+          npm run mcpack
+      - name: Archive mcpack
         uses: actions/upload-artifact@v4
         with:
-          name: fluoroscopy_outline
+          name: fluoroscopy-outline-mcpack
           path: "*.mcpack"
