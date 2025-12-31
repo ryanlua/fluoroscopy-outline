@@ -2,7 +2,7 @@
   "format_version": 2,
   "header": {
     "name": "Fluoroscopy Outline",
-    "description": "Outlines ores with their block color.",
+    "description": "Outline ores with their block color for far away identification and easier mining.\n\nSource code: github.com/ryanlua/fluoroscopy-outline",
     "uuid": "cb7b1b70-78c5-4d68-8006-33758047722a",
     "pack_scope": "global",
     "version": [1, 0, 0],
