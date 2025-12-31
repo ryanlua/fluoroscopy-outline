@@ -28,5 +28,5 @@ jobs:
       - name: Archive mcpack
         uses: actions/upload-artifact@v4
         with:
-          name: fluoroscopy-outline-mcpack
+          name: fluoroscopy-outline
           path: "dist/packages/*.mcpack"
